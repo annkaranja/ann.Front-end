@@ -1,0 +1,42 @@
+body{
+	background-color: #ddd;
+}
+
+.container{
+	width:900px;
+	color: black;
+	background-color:#fff;
+	min-height: 600px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: justify;
+}
+
+.container h1{
+	text-align: center;
+}
+
+
+.container i{
+	font-size: 40px;
+    padding:10px;
+    line-height: 1.5em;
+
+}
+
+.container a i {
+	background-color: orange;
+}
+
+/*.container i .fa-asymmetrik{background-color: orange;}
+
+.container i .fa-apple{background-color: orange;}
+
+.container i .fa-facebook{background-color: orange;}
+*/
+.container i .assymetrik{
+	font-size: 5px;
+	color: orange;
+
+}
+

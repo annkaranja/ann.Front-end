@@ -1,0 +1,177 @@
+body{
+
+background-color: blue;
+
+}
+
+.floats{
+
+width: 600px;
+background-color: yellow;
+margin: 0 auto;
+padding: 20px;
+overflow: auto;
+
+
+}
+
+
+.floats img{
+
+float:left;
+
+}
+
+
+.baraza{
+
+
+width: 600px;
+background-color: violet;
+margin: 0 auto;
+padding: 20px;
+overflow: auto;
+
+}
+
+
+.baraza img p{ 
+
+text-align: center;
+overflow:auto;
+
+
+ }
+
+.karanja{
+
+
+min-height:100px; 
+text-align:center; 
+color: #fff;
+float: left;
+line-height:5em;
+
+
+}
+
+
+.patrick{
+ 
+background-color: red;
+ width: 460px;
+ border:solid black 10px ;
+ margin:10px;
+
+
+}
+
+
+.ann{
+ 
+ 
+background-color: red;
+ width: 460px;
+ border:solid black 10px ;
+ margin:10px;
+
+
+}
+
+.cont{
+
+width: 1000px;
+background-color: #fff;
+margin: 0 auto;
+padding: 20px;
+overflow: auto;
+
+}
+
+
+.panel{
+
+
+
+
+
+
+
+.one{
+background-color: red;
+ width: 460px;
+ border:solid black 10px ;
+ margin:10px;
+
+
+ /*float:left;*/
+}
+
+.two{
+background-color: violet;
+ width: 460px;
+ margin: 10px;
+border:solid black 10px;
+margin:10px; 
+/*
+ float: left;*/
+
+}
+
+
+.three{ 
+  background-color: green;
+  width: 1000px;
+ /* clear: left;
+*/
+ }
+
+
+ .four{
+ 	 background-color: purple;
+  width: 250px;
+ /* clear: left;*/
+ 
+ }
+
+
+.five{
+ background-color: yellow;
+  width: 250px;
+
+}
+
+
+.six{
+
+ background-color: linen;
+  width: 250px;
+}
+
+.seven{
+ background-color: blue;
+  width: 250px;
+
+}
+
+.eight{
+
+ background-color: black;
+  width: 33.3%;
+	}
+
+
+.nine{
+ background-color: orange;
+  width: 33.3%;
+
+}	
+
+
+ .ten{
+
+ background-color: maroon;
+ width: 33.3%;
+ 
+
+   }

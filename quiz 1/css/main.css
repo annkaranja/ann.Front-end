@@ -1,0 +1,136 @@
+body{
+	background-color:pink;
+	margin: 0px;
+	padding:0px;
+
+}
+
+.newstyle{
+	background-color: white!important;
+	border-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+	padding-left:30px;
+	padding-right: 30px;
+	padding-top: 30px;
+
+}
+.newstyle img{
+	width: 200px;
+
+}
+.newstyle ul li{
+	display: inline;
+	list-style:none;
+}
+.newstyle ul li a{
+	color :red;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 16px;
+
+}
+ul li a.lgbta{
+	color:blue;
+}
+
+
+
+.newstyle ul li a:hover{
+	text-decoration: underline;
+	font-weight:bold;
+	color:white;
+	background-color:purple;
+}
+header{
+	background-color: yellow;
+
+}
+header img{
+	border-width:2px;
+	border-color:black;
+	border-style:  dashed;
+
+}
+header ul{
+	/*background-color: blue;*/
+	text-align:left;
+	
+
+}
+
+header ul li{
+	display: inline;
+
+}
+header ul li a{
+	text-decoration: none;
+}
+.center-content{
+	width: 400px;
+	margin: auto;
+	background-color: grey;
+	text-align: center;
+
+}
+.center-content p{
+background-color: transparent;
+padding: 100px;
+border: 122px;
+margin: 0 auto;
+text-align: center;
+
+}
+.center-content p u{
+	background-color:red;
+	font-size: 12px;
+	margin: 0 auto;
+}
+	
+.left-panel h1{
+background-color:transparent;
+padding: 120px;
+margin: 0 auto;
+border: 12px;
+
+	}
+
+h1{
+	color:red;
+	background-color:blue;
+	border-style:solid;
+	padding: 40px;
+	text-align:center;
+	border-width: 5px;
+	 font-family: courier;
+    font-size: 160%;
+    border:5px solid green;
+    margin: 150px;
+}
+h2{
+	color:red;
+	background-color:blue;
+	border-style:solid;
+	padding: 40px;
+	text-align:center;
+	border-width: 5px;
+	 font-family: courier;
+    font-size: 160%;
+    border:5px solid green;
+    margin: 150px;
+}
+
+ p{
+ 	background-color: yellow; 
+  }
+ .left-panel{
+ 	background-color: purple;
+    margin:0 auto;
+ }
+ #my-heading{
+ 	background-color: blue;
+ }
+ 
+ .background{
+ 	background-color: orange;
+ }
