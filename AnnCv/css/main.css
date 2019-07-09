@@ -9,11 +9,17 @@ body {
 .center { 
 	margin: 0 auto; 
 	width: 1200px;
+	display: table;
 }
 
 .clearfix {
 
     clear: both;
+
+}
+
+.fl-left {
+	float: left;
 
 }
 
@@ -24,7 +30,6 @@ body {
 .header .my-hero {
 	background-image: url(../images/blur.jpg);
 	background-size: cover;
-	/*background: no-repeat ,center ,center;*/
 	height: 600px;
 	padding-bottom: 15% 0 15%;	
 
@@ -103,10 +108,6 @@ body {
 
 }
 
-.mynav .navbar ul li a:hover {
-	color:#3c7316;
-}
-
 /* End navbar */
 
 
@@ -161,32 +162,32 @@ body {
 
 
 .about-me .info .hobbies {
-	overflow: hidden;
+	overflow: auto;
 	margin: 20px 0 20px 40px;
 }
 
 .about-me .info .hobbies .content {
 	width: 50%;
 	min-height: 100px;
-	overflow: hidden;
+	overflow: auto;
 	padding-top: 20px;
 }
 .about-me .info .hobbies .content .icon {
-	float: left;width: 16%;
+	float: left; 
+	width: 16%;
 	margin-right: 5%;
 }
 
 .about-me .info .hobbies .content .icon img {
-	max-width: 100%;margin: 20px 10px 0 0 ;
+	max-width: 100%;
+	margin: 20px 10px 0 0;
 }
 .about-me .info .hobbies .content .text {
-	float: left;width: 79%;
+	float: left;
+	width: 79%;
 }
 .about-me .info .hobbies .content h3 {
 	margin-bottom: 5px;
-}
-.about-me .info .hobbies .content .text p {
-	margin-top: 0;
 }
 /*	End of About ME */
 
@@ -196,7 +197,7 @@ body {
 .my-skills { 
 	padding-top: 20px;
 	padding-bottom: 20px;
-	overflow: hidden;
+	overflow: auto;
 	padding-bottom: 80px;
 }
 
@@ -230,13 +231,13 @@ body {
 	margin-bottom: 5px;
 }
 
-.my-skills .progress .technique .purcent {
+.my-skills .progress .technique .percent {
 
 	background-color: #f2f2f1;
 	height: 25px;
 }
 
-.my-skills .progress .technique .purcent span {
+.my-skills .progress .technique .percent span {
 	background-color: #22ce1d;
 	height: 25px;
 	display: block;
@@ -273,9 +274,8 @@ body {
 /* Start education */
 
 .my-education  { 
-	padding-top: 20px;
-	padding-bottom: 40px;
-	overflow: hidden;
+	padding-top: 20px 0 40px 0;
+	overflow: auto;
 }
 
 .my-education .education {
@@ -298,8 +298,7 @@ body {
 }
 
 .my-education .diploma h3 {
-	margin-top: 90px;
-	margin-bottom: 10px;
+	margin-top: 90px 0 10px 0;
 }
 
 .my-education .diploma span {
@@ -312,7 +311,7 @@ body {
 }
 
 .my-education .diploma span:last-of-type {
-	color:#FFF;
+	color:#fff;
 	background-color: #35ef10;
 	display: inline-block;
 	padding: 4px 10px;
@@ -337,11 +336,11 @@ body {
 .testimonials p {
 	padding:0 50px;
 	color: #777;
-	font:italic  18px/1.8 arial tahoma ;
+
 }
 
 .testimonials h3 {
-	padding-bottom: 25px;
+	padding-bottom: 20px;
 }
 
 .testimonials ul {
@@ -350,135 +349,120 @@ body {
 	overflow: auto;
 }
 
-.testimonials li
-{
-width: 20px;
-height: 20px;
-border: 1px solid #22ce1d;
-display: inline-block;
-cursor: pointer;
+.testimonials li {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #22ce1d;
+	display: inline-block;
+	
 }
 
 .testimonials li.active {
 	background-color:#22ce1d; 
 }
 
-.testimonials li:hover {
-	background-color:#22ce1d; 
-}
 /* End Testimonials */
 
 /* Start Portfolio */
-.portfolio
-{
-padding-top: 40px;
-padding-bottom:  70px;
-text-align: center;
-}
-.portfolio .container h2{color: #777;}
-.portfolio .container p{margin: 20px 70px 40px 50px;}
-.portfolio .container .anns-work {overflow: hidden;}
-
-.portfolio .container .anns-work > div
-{
-float: left;
-width: 33.3333333%;
-margin-bottom: 15px;
+.portfolio {
+	padding-top: 40px 0 70px 0;
+	text-align: center;
 }
 
-.portfolio .container .anns-work > div img
-{
-width: 92%;
-margin: 10px;
-padding: 3px;
-background-color: #FFF;
+.portfolio .center h2 {
+	color: #777;
+}
+
+.portfolio .center p {
+	margin: 20px 70px 40px 50px;
+}
+
+.portfolio .center .anns-work {
+	overflow: auto;
+}
+
+.portfolio .center .anns-work div {
+	float: left;
+	width: 33.33%;
+	margin: 0 0 15px 0;
+}
+
+.portfolio .center .anns-work div img {
+	width: 92%;
+	margin: 10px;
+	padding: 3px;
+	background-color: #fff;
 
 }
 /* End Portfolio */
 
 /* Start Contact-Me */
-.contact-me
-{
-background-color: #252e30;
-overflow: hidden;
-padding-top: 40px;
-padding-bottom: 70px;
-padding-left: 70px;
+.contact-me {
+	background-color: #252e30;
+	overflow: auto;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	padding-left: 70px;
 }
-.contact-me .info-contact {width: 50%;}
-.contact-me h2{color: #f6feff;}
-.contact-me p{color: #5d6162;}
-.contact-me p strong{color:#dae0e1;}
-.contact-me .form-contact{width: 50%;}
-.contact-me .form-contact label{color: #dae0e1;margin-bottom: 20px;display: block;}
+.contact-me .info-contact {
+	width: 50%;
+}
+.contact-me h2 {
+	color: #f6feff;
+}
+
+.contact-me p {
+	color: #5d6162;
+}
+.contact-me p strong {
+	color:#dae0e1; 
+}
+.contact-me .form-contact{
+	width: 50%;
+}
+.contact-me .form-contact label {
+	color: #dae0e1;
+	margin-bottom: 20px;
+	display: block;
+	}
 .contact-me .form-contact input[type="text"]
 {
-background-color:#708287;
-padding: 10px; 
-color: #FFF;
-border: 0;
-width: 70%;
-margin-bottom: 10px;
+	background-color:#708287;
+	padding: 10px; 
+	color: #FFF;
+	border: 0;
+	width: 70%;
+	margin-bottom: 10px;
 }
 
 .contact-me .form-contact textarea
 {
-background-color:#708287;
-padding: 10pxpx; 
-color: #FFF;
-border: 0;
-width: 70%;
-margin-bottom: 15px;
-height: 300px;
+	background-color:#708287;
+	padding: 10px; 
+	color: #FFF;
+	border: 0;
+	width: 70%;
+	margin-bottom: 15px;
+	height: 300px;
 }
-.contact-me .form-contact input[type="submit"]
-{
-background-color: #322b2b;
-color: #d8eaea;
-margin-top: 10px;
-padding: 9px;
-width: 30%;
+.contact-me .form-contact input[type="submit"] {
+	background-color: #322b2b;
+	color: #d8eaea;
+	margin-top: 10px;
+	padding: 9px;
+	width: 30%;
 }
 
 /* End Contact-Me */
 
 /* Start Footer */
-.footer
-{
-text-align: center;
-background-color: #191f21;
-padding: 20px 0;
-color: #5d6162;
-/*overflow: hidden;*/
+.footer {
+
+	text-align: center;
+	background-color: #191f21;
+	padding: 20px 0;
+	color: #5d6162;
 }
-/*
-.footer span
-{
-float:left;
-}
-*/
-.footer ul
-{
-padding-left: 0;/* to center it -iocn-*/
-list-style: none;
-margin: 10px 0 10px 0;
-/*float: right;*/
-}
-.footer ul li{display: inline-block;}
-.footer ul li i:hover  {color: #FFF;  }
+
 /* End Footer */
 
-/* start my framwork */
-
-.fl-left{float: left;}
-p{line-height: 1.5;color:#777;text-align: left;}
-h2 ,h3 {color: #777;}
-.my-button
-{
-border: 3px solid #6bec59;
-background: none;
-color: #6bec59;
-padding: 10px 30px;
-font-weight: bold;
-
-}
