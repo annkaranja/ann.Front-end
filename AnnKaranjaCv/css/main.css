@@ -1,15 +1,16 @@
 /*start of overall rules*/
 body {
-	height: 1000px;
 	color: #191f21;
 	font: arial;
+	/*background: #566;*/
 
 }
 
 .center { 
 	margin: 0 auto; 
-	width: 1200px;
+	max-width: 1200px;
 	display: table;
+	overflow: auto;
 }
 
 .clearfix {
@@ -49,6 +50,7 @@ body {
 	padding: 12px 0;
 	width: 600px;
 	color: #fff;
+	display: table;
 }
 
 .header .my-hero .intro button {
@@ -66,50 +68,51 @@ body {
 
 
 /*start of navbar*/
-.mynav .navbar
-{
+.mynav .navbar {
 	background-color: #252e30;
-	color: #fff;
-	padding: 0px;
-	margin: 0px;
-	overflow: auto;
-	text-transform: uppercase;
-
+	height: 60px;
 }
-
-.mynav .navbar h2 {
-	color: #fff; 
-
-}
-
-.mynav .navbar h2 {
-    color: #2a9058;				 
-
+.mynav .navbar .img{
+	float:left;
+ 	margin: 20px;
 }
 
 .mynav .navbar ul {
-
-	list-style: none;
-	padding-left: 0;
-	overflow: auto;
+	padding: 20px 0 20px 0;
+	margin: 0 20px 0 0;
 	float: right;
+}
 
+.mynav .center li {
+	display: inline;
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+
+}
+
+.mynav .center a {
+	color: white;
+	font-size: 12px;
+	padding: 30px 0 0 38px;
+	font-weight: bold;
+	text-transform:  uppercase;	
+	text-align: center;
 }
 
 .mynav .navbar ul li {
     padding: 10px;
     float: left;
-
 }
 
 .mynav .navbar ul li a {
 	color:#fff; 
 	text-decoration: none;
-
 }
 
-/* End navbar */
 
+/* End navbar */
 
 /* start of info */
 .info {
@@ -117,16 +120,16 @@ body {
 	padding: 100px 0 100px 0; 
 	}
 
-.info .challenge {
+.info .panels {
 	 width: 33.33%; 
 	 height: 150px;
 }
-.info .challenge h2 {
+.info .panels h2 {
 	text-transform: uppercase;
 	color: #444;
 }
 
-.info .challenge p { 
+.info .panels p { 
 	padding: 0 10px 0 10px;
 }
 
@@ -302,7 +305,7 @@ body {
 }
 
 .my-education .diploma span {
-	line-height: 1.5;
+	line-height: 1.5em;
 	text-align: left;
 }
 
